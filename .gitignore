@@ -1,0 +1,27 @@
+# Capturas de Burp Suite con datos sensibles
+*.burp
+*.pcap
+
+# Wordlists grandes
+*.txt
+!README.md
+!**/scripts/*.py
+!**/*.md
+
+# Resultados de escaneos
+output/
+results/
+*.xml
+*.html
+
+# Shells y payloads (no subir)
+*.php
+*.asp
+*.jsp
+shell*
+webshell*
+
+# Temporal
+__pycache__/
+*.pyc
+.DS_Store
